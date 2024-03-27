@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import baseball from '../assets/baseball.png'
 import baseball2 from '../assets/baseball2.png'
 import icehockey from '../assets/icehockey.png'
@@ -12,6 +13,7 @@ interface cardType {
     sport: string
 }
 function Sports() {
+
     let cardContent: cardType[] = [
         {
             imageUrl: baseball,
@@ -41,7 +43,6 @@ function Sports() {
     return (
         <div className='relative'>
             <div className='text-2xl leading-9 font-bold heading dark:text-white'>Sports</div>
-            <div className='absolute right-0 top-0 text-base dark:text-white border-2 dark:bg-black border-slate-600 px-3 h-10 rounded-sm'></div>
             <div className='mt-[5px] w-[80.52px] h-0 border-2 border-[#738FFF]'></div>
             <div className='card my-[25px] justify-items-center gap-[14.09px] grid grid-cols-1 min-[560px]:grid-cols-2 min-[940px]:grid-cols-3 min-[1190px]:grid-cols-4 min-[1400px]:grid-cols-5'>
                 {
