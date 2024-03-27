@@ -7,7 +7,10 @@
 *{
   padding : 0;
   margin : 0;
-  /* background-color: #F7F7F8; */
+}
+
+body.dark-mode{
+  @apply text-white
 }
 
 .heading {
@@ -16,4 +19,8 @@
 
 .Inter{
   font-family: "Inter", sans-serif;
+}
+
+:root {
+  --swiper-navigation-size: 20px;
 }
