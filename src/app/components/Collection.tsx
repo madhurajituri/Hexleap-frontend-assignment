@@ -68,7 +68,7 @@ function Collection() {
                 <div className='mt-[25px] mx-[161px] px-4 dark:text-white Inter font-[400] text-[14px] leading-[22.65px] text-center'>Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!</div>
                 
                 <div className='gap-[81.25px] flex justify-center items-center'>
-                    <div onClick={swiperRef.current?.swiper.slidePrev()} className="h-[49px] w-[36.75px] border-[#2C9CF0] border-[1px] flex items-center justify-center text-[20px] hover:bg-white"><img src={arrow.src} /></div>
+                    <div className="h-[49px] w-[36.75px] border-[#2C9CF0] border-[1px] flex items-center justify-center text-[20px] hover:bg-white"><img src={arrow.src} /></div>
                     <div className='flex justify-center'>
 
                         <div className='mt-[51px] w-[850px] relative'>
@@ -110,7 +110,7 @@ function Collection() {
                             </Swiper>
                         </div>
                     </div>
-                    <div onClick={swiperRef.current?.swiper.slideNext()} className=" h-[49px] w-[36.75px] border-[#2C9CF0] border-[1px] flex items-center justify-center text-[20px] hover:bg-white"><img src={arrow.src} className='rotate-180' /></div>
+                    <div className=" h-[49px] w-[36.75px] border-[#2C9CF0] border-[1px] flex items-center justify-center text-[20px] hover:bg-white"><img src={arrow.src} className='rotate-180' /></div>
                 </div>
 
             </div>
